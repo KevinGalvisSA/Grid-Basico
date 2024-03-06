@@ -34,12 +34,93 @@ body{
 }
 .container div{
     border-radius: 5px;
+    width: 100%;
 }
 .item_1{
-    width: 100%;
     background: red;
     grid-area: menu; 
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item_1__menu{
+    background: rosybrown;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.item_1__menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    /*background-color: rebeccapurple;*/
+}
+
+.item_1__usuario{
+    display: flex;
+    /*background: black;*/
+    width: 50%;
+    align-items: center;
+}
+
+.item_1__usuario div ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70%;
+    /*background-color: teal;*/
+}
+
+.item_1__usuario div ul li{
+    font-size: 20px;
+}
+
+.item_1__usuario ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    /*background-color: yellow;*/
+}
+
+.item_1__usuario ul li div h1{
+    display: flex;
+    justify-content: start;
+}
+
+.item_1__usuario div h1,
+.item_1__usuario div p{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    width: 150px;
+    /*background-color: lawngreen;*/
+}
+
+.item_1__usuario div h1{
+    font-size: 15px;
+}
+
+.item_1__usuario div p{
+    font-size: 10px;
+}
+
+.item_1__usuario ul div i{
+    /*background: firebrick;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: -20px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
 }
 
 .item_2{
